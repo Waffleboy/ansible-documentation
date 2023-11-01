@@ -62,7 +62,7 @@ installed version and then clone the git repo.
     source ansible/hacking/env-setup
 
     # To enable Ansible on login, run the following
-    echo ". ~/ansible/hacking/env-setup -q' >> ~/.bashrc
+    echo ". ~/ansible/hacking/env-setup -q" >> ~/.bashrc
 
 If you encounter timeout errors when running Ansible on the WSL, this may be due to an issue
 with ``sleep`` not returning correctly. The following workaround may resolve the issue:
